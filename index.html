@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/style.css" />
+		<title>Тестовое</title>
+	</head>
+	<body>
+		<div class="content">
+			<header class="header">
+				<h1>Список элементов</h1>
+				<div class="header__options">
+					<div>
+						<h3>Количество отображаемых элементов</h3>
+						<select class="selectCount">
+							<option value="10">10 элементов</option>
+							<option value="20">20 элементов</option>
+							<option value="30">Все</option>
+						</select>
+					</div>
+					<div>
+						<h3>Отсортировать элементы</h3>
+						<select class="selectSort">
+							<option value="default">По умолчанию</option>
+							<option value="price">По цене</option>
+							<option value="title">По названию</option>
+						</select>
+					</div>
+				</div>
+			</header>
+
+			<ul class="list"></ul>
+		</div>
+		<script src="/script.js"></script>
+	</body>
+</html>
